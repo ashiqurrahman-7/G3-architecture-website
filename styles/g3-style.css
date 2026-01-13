@@ -1,0 +1,58 @@
+/* shared style */
+        .display-flex{
+
+            display: flex;
+        }
+        /* dark02 */
+        .text-gray{
+            color: #424242;
+            
+        }
+        /* dark03 */
+        .text-light-gray{
+            color: #7272727;
+        }
+
+        /* background light */
+        .bg-light{
+            background-color:rgba(255, 144, 14, 0.1);
+            
+        }
+
+
+
+/* header style */
+
+
+
+
+/* navbar related style */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+.nav-link:hover{
+    color: red;
+}
+
+.navbar , .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+    
+
+}
